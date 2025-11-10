@@ -1,3 +1,12 @@
+'''
+Takes solar wind .csv files from ACE and converts them to .cdf files to use with the l1_propagate.py script
+
+The code is not working currently. It takes two identical ACE files, specified in the code, and supposedly combines them
+There is currently a big error.
+
+Use at your own risk. Or fix and do a pull request. IDC.
+'''
+
 import pandas as pd
 import numpy as np
 from spacepy import pycdf
