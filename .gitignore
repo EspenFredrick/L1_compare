@@ -1,0 +1,11 @@
+# Data files (they take up a lot of room(
+*.cdf
+*.csv
+
+# Image files
+*.png
+*.jpg
+
+# Misc file structure stuff
+.DS_store
+*/.idea/*
